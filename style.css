@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bc.jpg);
+}
+.nav{
+   display: flex;
+}
+.li1{
+    text-decoration: none;
+    display: inline;
+    
+}
+.nam{
+ 
+  
+ margin:250px;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+td:hover
+{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.table{
+    margin: 40px;
+    border: 2px solid white;
+    color: white;
+    width:1200px;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bc,jpg);
+
+}
+
+.card{
+    margin:25px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    color: white;
+}
+.card:hover{
+border: 7px inset gray;
+
+}
+.accordion-item{
+    background-color: black;
+    color: rgb(228, 228, 228);
+}
+
+.accordion-button{
+    background-color: rgb(163, 163, 163);
+    color: white;
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: rgb(0, 0, 0);
+  }
+
+.fa-instagram {
+  background: #125688;
+  color: rgb(0, 0, 0);
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: rgb(0, 0, 0);
+  }
+
+ 
+button{
+    border: black 2px ridge;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px; 
+    background-color: rgb(156, 156, 156); 
+    color: rgb(0, 22, 68);
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
